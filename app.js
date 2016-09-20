@@ -1,0 +1,12 @@
+var username = prompt ('What is your name?');
+alert('Welcome, ' + username + '!');
+console.log('The user\'s name is ' + username + '.');
+var hometown = prompt ('Where are you from originally, ' + username + '?' );
+alert ('Wow! You\'re from ' + hometown + '?! I\'ve never been there before, ' + username + '!');
+console.log('The user\'s hometown is ' + hometown + '.');
+var food = prompt('What do you like to eat ' + username + '?');
+alert ('I think ' + food + ' taste great too, ' + username + '.');
+console.log('The user\'s favorite food is ' + food + '.');
+var restaurant = prompt('Where\'s a good place to get ' + food + ' in ' + hometown + ', ' + username + '?');
+alert (restaurant + '? I\'ll have to go check that out. Thanks!');
+console.log('The user recommended ' + restaurant + '.');
