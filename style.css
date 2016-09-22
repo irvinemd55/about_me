@@ -26,6 +26,12 @@ p{
   color: #E6E8FA;
   text-align: left;
 }
+li{
+  color: #E6E8FA;
+  text-align: left;
+  font-size: 20px;
+  list-style-type: circle;
+}
 article {
   margin: auto;
   width: 50%;
