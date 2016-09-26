@@ -13,6 +13,10 @@ header{
   color: #003F87;
   font-size: 32px;
 }
+img {
+    float: right;
+    margin: 20px 5px 0px 0px;
+}
 h2{
   color: #5190ED;
   font-size: 25px;
@@ -26,18 +30,22 @@ p{
   color: #E6E8FA;
   text-align: left;
 }
-li{
-  color: #E6E8FA;
+ul{
   text-align: left;
-  font-size: 20px;
-  list-style-type: circle;
+  color:#E6E8FA;
+  font-size: 18px;
 }
-article {
+article{
   margin: auto;
   width: 50%;
   border: 3px solid black;
   padding: 10px;
-  text-align: center;
   background-color: #2F4F4F;
   height: 555px;
+}
+ol{
+  display: inline-grid;
+  column-count: 2;
+  list-style-type: none;
+  color:#E6E8FA;
 }
